@@ -42,8 +42,8 @@ public class AppDbContext : IdentityDbContext<User>
         #endregion
 
         #region Populate Usuário
-        List<Usuario> usuarios = new() {
-            new Usuario(){
+        List<User> usuarios = new() {
+            new User(){
                 Id = "ddf093a6-6cb5-4ff7-9a64-83da34aee005",
                 Email = "gallojunior@gmail.com",
                 NormalizedEmail = "GALLOJUNIOR@GMAIL.COM",
